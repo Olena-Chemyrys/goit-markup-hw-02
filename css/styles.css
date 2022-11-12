@@ -54,6 +54,10 @@ body {
   color: var(--primary-text-color);
 }
 
+.contact-links .a-item {
+  color: var(--primary-white-color);
+}
+
 .header-links .link:hover,
 .header-links .link:focus {
   color: var(--accent-color);
