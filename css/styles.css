@@ -48,7 +48,17 @@ h3 {
 }
 
 .accent {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+
+.header-links,
+.contact-links,
+.individ-list,
+.work-list,
+.team-list,
+.sites-section-list,
+.sites-list {
+  list-style-type: none;
 }
 
 .link {
