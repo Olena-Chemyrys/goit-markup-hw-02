@@ -183,3 +183,7 @@ h3 {
 .foot-section {
   background-color: var(--secondary-background-color);
 }
+
+.address {
+  font-style: normal;
+}
