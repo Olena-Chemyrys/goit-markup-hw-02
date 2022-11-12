@@ -85,12 +85,11 @@ h3 {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-/*
-.button.primary .button:hover,
-.button.primary .button:focus{
 
+.main-section .primary:hover,
+.main-section .primary:focus {
+  background-color: var(--accent-color);
 }
-  */
 
 .title {
   font-weight: 700;
@@ -147,7 +146,7 @@ h3 {
 }
 
 .sites-section .secondary:hover,
-.sites-section.secondary:focus {
+.sites-section .secondary:focus {
   background-color: var(--accent-color);
 }
 .sites-title {
