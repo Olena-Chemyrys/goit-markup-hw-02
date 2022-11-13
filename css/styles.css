@@ -5,6 +5,7 @@
   --primary-white-color: #f5f5f5;
   --buttons-background: #f5f4fa;
   --secondary-background-color: #2f303a;
+  --footer-links-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -49,13 +50,41 @@ body {
   text-decoration: none;
 }
 
-.header-links .link,
-.contact-links .link {
+.header-links {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.contact-link {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.header-links .link {
   color: var(--primary-text-color);
 }
 
+.address .link {
+  font-style: normal;
+  color: var(--footer-links-color);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
 .contact-links .a-item {
+  font-style: normal;
   color: var(--primary-white-color);
+  columns: var(--primary-white-color);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .header-links .link:hover,
@@ -95,7 +124,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -106,14 +134,14 @@ body {
 .main-section .primary:hover,
 .main-section .primary:focus {
   color: var(--title-text-color);
-  background-color: var(--primary-white-color);
+  background-color: var(--buttons-background);
 }
 
-.work-title,
-.team-title {
+.section-title {
   font-size: 36px;
   line-height: 1.17;
   color: var(--title-text-color);
+  text-align: center;
 }
 
 /* individuals */
@@ -134,6 +162,7 @@ body {
 }  */
 
 .team-title {
+  color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
@@ -157,17 +186,19 @@ body {
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
+  align-items: center;
   letter-spacing: 0.03em;
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
+  color: var(--title-text-color);
+  background-color: var(--buttons-background);
 }
 
 .sites-section .secondary:hover,
 .sites-section .secondary:focus {
-  color: var(--title-text-color);
-  background-color: var(--primary-white-color);
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 .sites-title {
+  color: var(--title-text-color);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -178,10 +209,10 @@ body {
   line-height: 1.9;
 }
 
-.contact-links {
-  font-style: normal;
-}
-
 .foot-section > .logo {
   color: var(--primary-white-color);
+}
+
+.contact-links > .link {
+  color: var(--footer-links-color);
 }
