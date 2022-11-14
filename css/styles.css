@@ -101,6 +101,9 @@ body {
   text-transform: uppercase;
   color: var(--primary-white-color);
 }
+.button {
+  cursor: pointer;
+}
 
 .primary {
   font-family: inherit;
